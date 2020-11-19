@@ -26,7 +26,7 @@ new CronJob({
 })
 
 bot.start((ctx) => {
-    return ctx.reply("Hey");
+    return ctx.reply("Heyyo");
 });
 
 bot.hears(/selam/ig, async (ctx, next) => {
